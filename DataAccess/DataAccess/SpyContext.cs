@@ -12,11 +12,6 @@ public class SpyContext: DbContext
     public DbSet<Mission> Missions => Set<Mission>();
 
     public SpyContext() : base(Options)
-    {
-        
-    }
-    
-        
-   
-    
+    {   
+    } 
 }
